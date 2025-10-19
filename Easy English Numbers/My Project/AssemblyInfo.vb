@@ -8,10 +8,10 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("Easy English Numbers")> 
-<Assembly: AssemblyDescription("Easy English Numbers")> 
-<Assembly: AssemblyCompany("Autastic Media")> 
-<Assembly: AssemblyProduct("Easy English Numbers")>
+<Assembly: AssemblyTitle("Easy English Numbers - 1-60 Edition")>
+<Assembly: AssemblyDescription("A calming, image-based quiz module for autistic learners. Part of the Easy Learning suite by Autastic Media.")>
+<Assembly: AssemblyCompany("Autastic Media")>
+<Assembly: AssemblyProduct("Easy English Numbers - 1-60 Edition")>
 <Assembly: AssemblyCopyright("Copyright ©  2020-2025")>
 <Assembly: AssemblyTrademark("")> 
 

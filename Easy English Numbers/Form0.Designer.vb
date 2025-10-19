@@ -67,7 +67,7 @@ Partial Class Form0
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.SteelBlue
         Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox2.Image = Global.Easy_English_Numbers.My.Resources.Resources.TITLE_HEADER_MEDIUM
+        Me.PictureBox2.Image = Global.Easy_English_Numbers_1_60_Edition.My.Resources.Resources.TITLE_HEADER_MEDIUM
         Me.PictureBox2.Location = New System.Drawing.Point(33, 8)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(315, 84)

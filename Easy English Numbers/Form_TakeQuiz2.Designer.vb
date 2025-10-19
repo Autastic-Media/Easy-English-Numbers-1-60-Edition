@@ -57,7 +57,7 @@ Partial Class Form_TakeQuiz2
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
         Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
-        Me.PictureBox1.Image = Global.Easy_English_Numbers.My.Resources.Resources.Quiz_2
+        Me.PictureBox1.Image = Global.Easy_English_Numbers_1_60_Edition.My.Resources.Resources.Quiz_2
         Me.PictureBox1.Location = New System.Drawing.Point(74, 76)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(204, 194)

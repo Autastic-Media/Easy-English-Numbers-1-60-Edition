@@ -9,14 +9,16 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{C10E66AB-9B6B-47C8-89E2-1B4EA72884E6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Easy_English_Numbers.My.MyApplication</StartupObject>
-    <RootNamespace>Easy_English_Numbers</RootNamespace>
-    <AssemblyName>Easy English Numbers</AssemblyName>
+    <StartupObject>Easy_English_Numbers_1_60_Edition.My.MyApplication</StartupObject>
+    <RootNamespace>Easy_English_Numbers_1_60_Edition</RootNamespace>
+    <AssemblyName>Easy English Numbers - 1-60 Edition</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -32,8 +34,6 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <PlatformTarget>x86</PlatformTarget>
@@ -42,7 +42,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Easy English Numbers.xml</DocumentationFile>
+    <DocumentationFile>Easy English Numbers - 1-60 Edition.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
@@ -52,7 +52,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Easy English Numbers.xml</DocumentationFile>
+    <DocumentationFile>Easy English Numbers - 1-60 Edition.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -94,7 +94,9 @@
       <Private>True</Private>
     </Reference>
     <!-- Full framework references -->
-    <Reference Include="System" />
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Profile\Client\System.dll</HintPath>
+    </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -294,6 +296,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>

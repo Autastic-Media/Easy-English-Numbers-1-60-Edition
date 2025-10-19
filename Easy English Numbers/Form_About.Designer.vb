@@ -46,7 +46,7 @@ Partial Class Form_About
         '
         Me.PictureBox2.BackColor = System.Drawing.Color.White
         Me.PictureBox2.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.PictureBox2.Image = Global.Easy_English_Numbers.My.Resources.Resources.TITLE_HEADER_MEDIUM
+        Me.PictureBox2.Image = Global.Easy_English_Numbers_1_60_Edition.My.Resources.Resources.TITLE_HEADER_MEDIUM
         Me.PictureBox2.Location = New System.Drawing.Point(19, 18)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(301, 94)
@@ -102,7 +102,7 @@ Partial Class Form_About
         Me.MinimizeBox = False
         Me.Name = "Form_About"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "About: Easy English Numbers 1-60"
+        Me.Text = "About: Easy English Numbers 1-60 Edition"
         Me.TopMost = True
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel2.ResumeLayout(False)

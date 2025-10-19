@@ -55,7 +55,7 @@ Partial Class FormLog
         'PictureBox1
         '
         Me.PictureBox1.BackColor = System.Drawing.Color.SteelBlue
-        Me.PictureBox1.Image = Global.Easy_English_Numbers.My.Resources.Resources.English_Numbers_Front1
+        Me.PictureBox1.Image = Global.Easy_English_Numbers_1_60_Edition.My.Resources.Resources.English_Numbers_Front1
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(375, 301)
