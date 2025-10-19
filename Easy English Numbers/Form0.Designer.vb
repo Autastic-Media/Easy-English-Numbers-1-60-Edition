@@ -61,6 +61,7 @@ Partial Class Form0
         Me.Button_1.Name = "Button_1"
         Me.Button_1.Size = New System.Drawing.Size(102, 100)
         Me.Button_1.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.Button_1, "1-12 Numbers")
         Me.Button_1.UseVisualStyleBackColor = True
         '
         'PictureBox2
@@ -93,6 +94,7 @@ Partial Class Form0
         Me.Button_Close.Size = New System.Drawing.Size(100, 30)
         Me.Button_Close.TabIndex = 9
         Me.Button_Close.Text = "Close"
+        Me.ToolTip1.SetToolTip(Me.Button_Close, "About application")
         Me.Button_Close.UseVisualStyleBackColor = True
         '
         'PictureBox1
@@ -115,6 +117,7 @@ Partial Class Form0
         Me.Button_Quiz.Name = "Button_Quiz"
         Me.Button_Quiz.Size = New System.Drawing.Size(102, 100)
         Me.Button_Quiz.TabIndex = 5
+        Me.ToolTip1.SetToolTip(Me.Button_Quiz, "Selects Random Quizes to take")
         Me.Button_Quiz.UseVisualStyleBackColor = True
         '
         'Button_2
@@ -126,6 +129,7 @@ Partial Class Form0
         Me.Button_2.Name = "Button_2"
         Me.Button_2.Size = New System.Drawing.Size(102, 100)
         Me.Button_2.TabIndex = 1
+        Me.ToolTip1.SetToolTip(Me.Button_2, "13-24 Numbers")
         Me.Button_2.UseVisualStyleBackColor = True
         '
         'Button_3
@@ -137,6 +141,7 @@ Partial Class Form0
         Me.Button_3.Name = "Button_3"
         Me.Button_3.Size = New System.Drawing.Size(102, 100)
         Me.Button_3.TabIndex = 2
+        Me.ToolTip1.SetToolTip(Me.Button_3, "25-36 Numbers")
         Me.Button_3.UseVisualStyleBackColor = True
         '
         'Button_4
@@ -148,6 +153,7 @@ Partial Class Form0
         Me.Button_4.Name = "Button_4"
         Me.Button_4.Size = New System.Drawing.Size(102, 100)
         Me.Button_4.TabIndex = 3
+        Me.ToolTip1.SetToolTip(Me.Button_4, "37-48 Numbers")
         Me.Button_4.UseVisualStyleBackColor = True
         '
         'Button_5
@@ -159,6 +165,7 @@ Partial Class Form0
         Me.Button_5.Name = "Button_5"
         Me.Button_5.Size = New System.Drawing.Size(102, 100)
         Me.Button_5.TabIndex = 4
+        Me.ToolTip1.SetToolTip(Me.Button_5, "49-60 Numbers")
         Me.Button_5.UseVisualStyleBackColor = True
         '
         'Button_About
@@ -170,6 +177,7 @@ Partial Class Form0
         Me.Button_About.Size = New System.Drawing.Size(100, 30)
         Me.Button_About.TabIndex = 8
         Me.Button_About.Text = "About"
+        Me.ToolTip1.SetToolTip(Me.Button_About, "About application")
         Me.Button_About.UseVisualStyleBackColor = True
         '
         'Button_Start
@@ -181,6 +189,7 @@ Partial Class Form0
         Me.Button_Start.Size = New System.Drawing.Size(100, 30)
         Me.Button_Start.TabIndex = 7
         Me.Button_Start.Text = "Start"
+        Me.ToolTip1.SetToolTip(Me.Button_Start, "Start learning")
         Me.Button_Start.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -221,6 +230,7 @@ Partial Class Form0
         Me.Volume.Size = New System.Drawing.Size(31, 24)
         Me.Volume.TabIndex = 82
         Me.Volume.Text = "🔊"
+        Me.ToolTip1.SetToolTip(Me.Volume, "Toggles Volume On/Off")
         '
         'Label6
         '
@@ -282,6 +292,7 @@ Partial Class Form0
         Me.TrackBar_Volume.SmallChange = 5
         Me.TrackBar_Volume.TabIndex = 6
         Me.TrackBar_Volume.TickFrequency = 25
+        Me.ToolTip1.SetToolTip(Me.TrackBar_Volume, "Sets Global Audio Volume")
         Me.TrackBar_Volume.Value = 100
         '
         'AudioState
@@ -296,6 +307,7 @@ Partial Class Form0
         Me.AudioState.Size = New System.Drawing.Size(25, 16)
         Me.AudioState.TabIndex = 84
         Me.AudioState.Text = "On"
+        Me.ToolTip1.SetToolTip(Me.AudioState, "Toggles Volume On/Off")
         '
         'ToolTip1
         '
