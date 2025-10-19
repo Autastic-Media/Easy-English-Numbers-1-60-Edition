@@ -22,6 +22,7 @@ Partial Class Form3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
         Me.Button_33 = New System.Windows.Forms.Button()
         Me.Button_32 = New System.Windows.Forms.Button()
@@ -40,6 +41,7 @@ Partial Class Form3
         Me.Button_Next = New System.Windows.Forms.Button()
         Me.Button_Back = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'Button_33
@@ -178,6 +180,7 @@ Partial Class Form3
         Me.Button_Close.Size = New System.Drawing.Size(132, 40)
         Me.Button_Close.TabIndex = 13
         Me.Button_Close.Text = "Close"
+        Me.ToolTip1.SetToolTip(Me.Button_Close, "Return to main menu")
         Me.Button_Close.UseVisualStyleBackColor = True
         '
         'Button_Next
@@ -189,6 +192,7 @@ Partial Class Form3
         Me.Button_Next.Size = New System.Drawing.Size(132, 40)
         Me.Button_Next.TabIndex = 14
         Me.Button_Next.Text = "Next"
+        Me.ToolTip1.SetToolTip(Me.Button_Next, "Continue to 37-48 numbers")
         Me.Button_Next.UseVisualStyleBackColor = True
         '
         'Button_Back
@@ -200,6 +204,7 @@ Partial Class Form3
         Me.Button_Back.Size = New System.Drawing.Size(132, 40)
         Me.Button_Back.TabIndex = 12
         Me.Button_Back.Text = "Back"
+        Me.ToolTip1.SetToolTip(Me.Button_Back, "Return to 12-24 numbers")
         Me.Button_Back.UseVisualStyleBackColor = True
         '
         'TextBox1
@@ -266,5 +271,5 @@ Partial Class Form3
     Friend WithEvents Button_Next As System.Windows.Forms.Button
     Friend WithEvents Button_Back As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

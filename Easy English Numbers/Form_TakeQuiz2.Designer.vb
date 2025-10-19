@@ -5,12 +5,14 @@ Partial Class Form_TakeQuiz2
     Friend WithEvents lblInstructions As Label
 
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_TakeQuiz2))
         Me.txtUserName = New System.Windows.Forms.TextBox()
         Me.lblInstructions = New System.Windows.Forms.Label()
         Me.btnStartQuiz = New System.Windows.Forms.Button()
         Me.btnClose = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -20,6 +22,7 @@ Partial Class Form_TakeQuiz2
         Me.txtUserName.Name = "txtUserName"
         Me.txtUserName.Size = New System.Drawing.Size(154, 25)
         Me.txtUserName.TabIndex = 0
+        Me.ToolTip1.SetToolTip(Me.txtUserName, "Enter your name")
         '
         'lblInstructions
         '
@@ -41,6 +44,7 @@ Partial Class Form_TakeQuiz2
         Me.btnStartQuiz.Size = New System.Drawing.Size(79, 28)
         Me.btnStartQuiz.TabIndex = 55
         Me.btnStartQuiz.Text = "Start Quiz"
+        Me.ToolTip1.SetToolTip(Me.btnStartQuiz, "Press to start quiz")
         Me.btnStartQuiz.UseVisualStyleBackColor = True
         '
         'btnClose
@@ -51,6 +55,7 @@ Partial Class Form_TakeQuiz2
         Me.btnClose.Size = New System.Drawing.Size(83, 28)
         Me.btnClose.TabIndex = 56
         Me.btnClose.Text = "Close"
+        Me.ToolTip1.SetToolTip(Me.btnClose, "Return to main menu")
         Me.btnClose.UseVisualStyleBackColor = True
         '
         'PictureBox1
@@ -90,4 +95,6 @@ Partial Class Form_TakeQuiz2
     Friend WithEvents btnStartQuiz As Button
     Friend WithEvents btnClose As Button
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents ToolTip1 As ToolTip
+    Private components As System.ComponentModel.IContainer
 End Class

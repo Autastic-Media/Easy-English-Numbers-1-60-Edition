@@ -94,7 +94,7 @@ Partial Class Form0
         Me.Button_Close.Size = New System.Drawing.Size(100, 30)
         Me.Button_Close.TabIndex = 9
         Me.Button_Close.Text = "Close"
-        Me.ToolTip1.SetToolTip(Me.Button_Close, "About application")
+        Me.ToolTip1.SetToolTip(Me.Button_Close, "Close application")
         Me.Button_Close.UseVisualStyleBackColor = True
         '
         'PictureBox1
@@ -309,10 +309,6 @@ Partial Class Form0
         Me.AudioState.Text = "On"
         Me.ToolTip1.SetToolTip(Me.AudioState, "Toggles Volume On/Off")
         '
-        'ToolTip1
-        '
-        Me.ToolTip1.ToolTipTitle = "ToolStrip1"
-        '
         'Form0
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -343,6 +339,7 @@ Partial Class Form0
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.IsMdiContainer = True
+        Me.MaximizeBox = False
         Me.Name = "Form0"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Easy English Numbers 1-60"

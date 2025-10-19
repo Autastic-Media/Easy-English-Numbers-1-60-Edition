@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Button_Back = New System.Windows.Forms.Button()
         Me.Button_Next = New System.Windows.Forms.Button()
@@ -35,32 +36,34 @@ Partial Class Form1
         Me.Button_2 = New System.Windows.Forms.Button()
         Me.Button_1 = New System.Windows.Forms.Button()
         Me.Button_10 = New System.Windows.Forms.Button()
-        Me.Button_Close = New System.Windows.Forms.Button()
         Me.Button_11 = New System.Windows.Forms.Button()
         Me.Button_12 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'Button_Back
         '
         Me.Button_Back.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button_Back.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button_Back.Location = New System.Drawing.Point(18, 360)
+        Me.Button_Back.Location = New System.Drawing.Point(87, 360)
         Me.Button_Back.Name = "Button_Back"
         Me.Button_Back.Size = New System.Drawing.Size(132, 40)
         Me.Button_Back.TabIndex = 12
         Me.Button_Back.Text = "Back"
+        Me.ToolTip1.SetToolTip(Me.Button_Back, "Return to main menu")
         Me.Button_Back.UseVisualStyleBackColor = True
         '
         'Button_Next
         '
         Me.Button_Next.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button_Next.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button_Next.Location = New System.Drawing.Point(294, 360)
+        Me.Button_Next.Location = New System.Drawing.Point(225, 360)
         Me.Button_Next.Name = "Button_Next"
         Me.Button_Next.Size = New System.Drawing.Size(132, 40)
         Me.Button_Next.TabIndex = 14
         Me.Button_Next.Text = "Next"
+        Me.ToolTip1.SetToolTip(Me.Button_Next, "Continue to 13-24 Numbers")
         Me.Button_Next.UseVisualStyleBackColor = True
         '
         'Button_9
@@ -164,17 +167,6 @@ Partial Class Form1
         Me.Button_10.TabIndex = 9
         Me.Button_10.UseVisualStyleBackColor = True
         '
-        'Button_Close
-        '
-        Me.Button_Close.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.Button_Close.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button_Close.Location = New System.Drawing.Point(156, 360)
-        Me.Button_Close.Name = "Button_Close"
-        Me.Button_Close.Size = New System.Drawing.Size(132, 40)
-        Me.Button_Close.TabIndex = 13
-        Me.Button_Close.Text = "Close"
-        Me.Button_Close.UseVisualStyleBackColor = True
-        '
         'Button_11
         '
         Me.Button_11.BackgroundImage = CType(resources.GetObject("Button_11.BackgroundImage"), System.Drawing.Image)
@@ -216,7 +208,6 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.SteelBlue
         Me.ClientSize = New System.Drawing.Size(444, 411)
-        Me.Controls.Add(Me.Button_Close)
         Me.Controls.Add(Me.Button_Next)
         Me.Controls.Add(Me.Button_Back)
         Me.Controls.Add(Me.TextBox1)
@@ -254,9 +245,8 @@ Partial Class Form1
     Friend WithEvents Button_Back As System.Windows.Forms.Button
     Friend WithEvents Button_Next As System.Windows.Forms.Button
     Friend WithEvents Button_10 As System.Windows.Forms.Button
-    Friend WithEvents Button_Close As System.Windows.Forms.Button
     Friend WithEvents Button_11 As System.Windows.Forms.Button
     Friend WithEvents Button_12 As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

@@ -22,6 +22,7 @@ Partial Class Form5
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form5))
         Me.Button_Back = New System.Windows.Forms.Button()
         Me.Button_60 = New System.Windows.Forms.Button()
@@ -38,6 +39,7 @@ Partial Class Form5
         Me.Button_50 = New System.Windows.Forms.Button()
         Me.Button_49 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'Button_Back
@@ -49,6 +51,7 @@ Partial Class Form5
         Me.Button_Back.Size = New System.Drawing.Size(132, 40)
         Me.Button_Back.TabIndex = 80
         Me.Button_Back.Text = "Back"
+        Me.ToolTip1.SetToolTip(Me.Button_Back, "Return to 37-48 numbers")
         Me.Button_Back.UseVisualStyleBackColor = True
         '
         'Button_60
@@ -80,6 +83,7 @@ Partial Class Form5
         Me.Button_Close.Size = New System.Drawing.Size(132, 40)
         Me.Button_Close.TabIndex = 81
         Me.Button_Close.Text = "Close"
+        Me.ToolTip1.SetToolTip(Me.Button_Close, "Return to main menu")
         Me.Button_Close.UseVisualStyleBackColor = True
         '
         'Button_58
@@ -243,5 +247,5 @@ Partial Class Form5
     Friend WithEvents Button_50 As System.Windows.Forms.Button
     Friend WithEvents Button_49 As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

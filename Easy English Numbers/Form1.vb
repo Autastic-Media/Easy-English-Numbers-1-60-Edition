@@ -60,7 +60,7 @@ Public Class Form1
         Form0.Show()
     End Sub
 
-    Private Sub Button_Close_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button_Close.Click
+    Private Sub Button_Close_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Close()
         Form0.Show()
     End Sub

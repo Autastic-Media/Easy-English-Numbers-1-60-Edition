@@ -116,6 +116,7 @@ Public Class Form_Quiz3_1
 
     Private Sub Button_Close_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button_Close.Click
         Me.Close()
+        Form_TakeQuiz1.txtUserName.Text = ""
         Form0.Show()
     End Sub
 

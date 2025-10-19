@@ -22,6 +22,7 @@ Partial Class Form2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
         Me.Button_21 = New System.Windows.Forms.Button()
         Me.Button_20 = New System.Windows.Forms.Button()
@@ -40,6 +41,7 @@ Partial Class Form2
         Me.Button_24 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.SuspendLayout()
         '
         'Button_21
@@ -151,6 +153,7 @@ Partial Class Form2
         Me.Button_Next.Size = New System.Drawing.Size(132, 40)
         Me.Button_Next.TabIndex = 14
         Me.Button_Next.Text = "Next"
+        Me.ToolTip1.SetToolTip(Me.Button_Next, "Continue to 25-36 Numbers")
         Me.Button_Next.UseVisualStyleBackColor = True
         '
         'Button_Back
@@ -162,6 +165,7 @@ Partial Class Form2
         Me.Button_Back.Size = New System.Drawing.Size(132, 40)
         Me.Button_Back.TabIndex = 12
         Me.Button_Back.Text = "Back"
+        Me.ToolTip1.SetToolTip(Me.Button_Back, "Return to 1-12 Numbers")
         Me.Button_Back.UseVisualStyleBackColor = True
         '
         'Button_Close
@@ -173,6 +177,7 @@ Partial Class Form2
         Me.Button_Close.Size = New System.Drawing.Size(132, 40)
         Me.Button_Close.TabIndex = 13
         Me.Button_Close.Text = "Close"
+        Me.ToolTip1.SetToolTip(Me.Button_Close, "Return to main menu")
         Me.Button_Close.UseVisualStyleBackColor = True
         '
         'Button_23
@@ -269,4 +274,5 @@ Partial Class Form2
     Friend WithEvents Button_24 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

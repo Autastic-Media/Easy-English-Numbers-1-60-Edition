@@ -17,12 +17,17 @@ Public Class Form_TakeQuiz3
     End Sub
 
     Private Sub btnStartQuiz_Click(sender As Object, e As EventArgs) Handles btnStartQuiz.Click
-        Globals.UserName = txtUserName.Text
-        Globals.QuizDate = DateTime.Now.ToString("dddd, dd MMMM yyyy, HH:mm")
+        ' Check if the TextBox is Nothing, an empty string, or only whitespace.
+        If String.IsNullOrWhiteSpace(txtUserName.Text) Then
+            MessageBox.Show("Please enter a valid name.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        Else
+            Globals.UserName = txtUserName.Text
+            Globals.QuizDate = DateTime.Now.ToString("dddd, dd MMMM yyyy, HH:mm")
 
-        Dim quizForm As New Form_Quiz3_1()
-        quizForm.Show()
-        Me.Hide()
+            Dim quizForm As New Form_Quiz3_1()
+            quizForm.Show()
+            Me.Hide()
+        End If
     End Sub
 
     Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click

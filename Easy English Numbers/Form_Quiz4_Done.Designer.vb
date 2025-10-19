@@ -34,6 +34,7 @@ Partial Class FormQ4_Done
         Me.txtUserName = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -79,6 +80,7 @@ Partial Class FormQ4_Done
         Me.Button_Close.Size = New System.Drawing.Size(210, 63)
         Me.Button_Close.TabIndex = 1
         Me.Button_Close.Text = "Close"
+        Me.ToolTip1.SetToolTip(Me.Button_Close, "Return to last screen")
         Me.Button_Close.UseVisualStyleBackColor = False
         '
         'PrintForm1
@@ -100,6 +102,7 @@ Partial Class FormQ4_Done
         Me.Button_Result.Size = New System.Drawing.Size(210, 63)
         Me.Button_Result.TabIndex = 0
         Me.Button_Result.Text = "Print out results"
+        Me.ToolTip1.SetToolTip(Me.Button_Result, "Press to print out quiz results")
         Me.Button_Result.UseVisualStyleBackColor = False
         '
         'lblDateTime
@@ -148,6 +151,7 @@ Partial Class FormQ4_Done
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(460, 554)
+        Me.ControlBox = False
         Me.Controls.Add(Me.lblDateTime)
         Me.Controls.Add(Me.txtUserName)
         Me.Controls.Add(Me.Label2)
@@ -178,4 +182,5 @@ Partial Class FormQ4_Done
     Friend WithEvents txtUserName As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents Label1 As Label
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

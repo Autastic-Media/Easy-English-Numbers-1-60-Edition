@@ -22,6 +22,7 @@ Partial Class Form_Quiz1_2
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_Quiz1_2))
         Me.Number_18 = New System.Windows.Forms.Button()
         Me.lblScore = New System.Windows.Forms.Label()
@@ -41,6 +42,7 @@ Partial Class Form_Quiz1_2
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Number_12 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.YN3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YN2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YN1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -190,6 +192,7 @@ Partial Class Form_Quiz1_2
         Me.Button_Next.Size = New System.Drawing.Size(136, 50)
         Me.Button_Next.TabIndex = 31
         Me.Button_Next.Text = "Next"
+        Me.ToolTip1.SetToolTip(Me.Button_Next, "Continue to next screen")
         Me.Button_Next.UseVisualStyleBackColor = False
         '
         'YN1
@@ -269,6 +272,7 @@ Partial Class Form_Quiz1_2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.SteelBlue
         Me.ClientSize = New System.Drawing.Size(441, 515)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Number_18)
         Me.Controls.Add(Me.lblScore)
         Me.Controls.Add(Me.Button_Close)
@@ -319,5 +323,5 @@ Partial Class Form_Quiz1_2
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Number_12 As System.Windows.Forms.Button
     Friend WithEvents Label3 As System.Windows.Forms.Label
-
+    Friend WithEvents ToolTip1 As ToolTip
 End Class

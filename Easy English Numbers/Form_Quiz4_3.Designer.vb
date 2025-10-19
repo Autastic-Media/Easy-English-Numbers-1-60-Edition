@@ -22,6 +22,7 @@ Partial Class Form_Quiz4_3
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form_Quiz4_3))
         Me.Number_50 = New System.Windows.Forms.Button()
         Me.lblScore = New System.Windows.Forms.Label()
@@ -41,6 +42,7 @@ Partial Class Form_Quiz4_3
         Me.Number_60 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Number_51 = New System.Windows.Forms.Button()
+        Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         CType(Me.YN3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YN2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.YN1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -81,6 +83,7 @@ Partial Class Form_Quiz4_3
         Me.Button_Close.Size = New System.Drawing.Size(136, 50)
         Me.Button_Close.TabIndex = 59
         Me.Button_Close.Text = "Close"
+        Me.ToolTip1.SetToolTip(Me.Button_Close, "Close application")
         Me.Button_Close.UseVisualStyleBackColor = False
         '
         'Label3
@@ -200,6 +203,7 @@ Partial Class Form_Quiz4_3
         Me.Button_Menu.Size = New System.Drawing.Size(136, 50)
         Me.Button_Menu.TabIndex = 49
         Me.Button_Menu.Text = "Main Menu"
+        Me.ToolTip1.SetToolTip(Me.Button_Menu, "Return to main menu")
         Me.Button_Menu.UseVisualStyleBackColor = False
         '
         'YN1
@@ -269,6 +273,7 @@ Partial Class Form_Quiz4_3
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.SteelBlue
         Me.ClientSize = New System.Drawing.Size(441, 515)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Number_50)
         Me.Controls.Add(Me.lblScore)
         Me.Controls.Add(Me.Button_Close)
@@ -318,5 +323,5 @@ Partial Class Form_Quiz4_3
     Friend WithEvents Number_60 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Number_51 As System.Windows.Forms.Button
-
+    Friend WithEvents ToolTip1 As ToolTip
 End Class
