@@ -5,7 +5,7 @@
 <p align="center"><em>Empowering autistic users through emotionally resonant, predictable, and accessible software.</em></p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Autastic-Media/home/main/assets/Easy_English_Numbers_Logo.png" alt="Easy English Numbers Logo" width="600"/>
+  <img src="https://raw.githubusercontent.com/Autastic-Media/home/main/assets/Easy_English_Numbers_1-60_Logo.png" alt="Easy English Numbers Logo" width="600"/>
 </p>
 
 <p align="center"><strong>A calming, image-based quiz module for autistic learners.<br/>
@@ -60,7 +60,7 @@ Part of the Easy Learning suite by Autastic Media.</strong></p>
 
 ## 🎓 Emotional Purpose
 
-**Easy English Numbers** is a learning sanctuary designed for autistic users who benefit from a calmer, more predictable sensory environment.
+**Easy English Numbers 1-60 Edition** is a learning sanctuary designed for autistic users who benefit from a calmer, more predictable sensory environment.
 
 It offers:
 - Visual and auditory repetition to reinforce engagement and retention  
