@@ -49,7 +49,7 @@ Partial Class Form5
         Me.Button_Back.Location = New System.Drawing.Point(87, 360)
         Me.Button_Back.Name = "Button_Back"
         Me.Button_Back.Size = New System.Drawing.Size(132, 40)
-        Me.Button_Back.TabIndex = 80
+        Me.Button_Back.TabIndex = 12
         Me.Button_Back.Text = "Back"
         Me.ToolTip1.SetToolTip(Me.Button_Back, "Return to 37-48 numbers")
         Me.Button_Back.UseVisualStyleBackColor = True
@@ -61,7 +61,7 @@ Partial Class Form5
         Me.Button_60.Location = New System.Drawing.Point(330, 224)
         Me.Button_60.Name = "Button_60"
         Me.Button_60.Size = New System.Drawing.Size(100, 100)
-        Me.Button_60.TabIndex = 78
+        Me.Button_60.TabIndex = 11
         Me.Button_60.UseVisualStyleBackColor = True
         '
         'Button_59
@@ -71,7 +71,7 @@ Partial Class Form5
         Me.Button_59.Location = New System.Drawing.Point(224, 224)
         Me.Button_59.Name = "Button_59"
         Me.Button_59.Size = New System.Drawing.Size(100, 100)
-        Me.Button_59.TabIndex = 77
+        Me.Button_59.TabIndex = 10
         Me.Button_59.UseVisualStyleBackColor = True
         '
         'Button_Close
@@ -81,7 +81,7 @@ Partial Class Form5
         Me.Button_Close.Location = New System.Drawing.Point(225, 360)
         Me.Button_Close.Name = "Button_Close"
         Me.Button_Close.Size = New System.Drawing.Size(132, 40)
-        Me.Button_Close.TabIndex = 81
+        Me.Button_Close.TabIndex = 13
         Me.Button_Close.Text = "Close"
         Me.ToolTip1.SetToolTip(Me.Button_Close, "Return to main menu")
         Me.Button_Close.UseVisualStyleBackColor = True
@@ -93,7 +93,7 @@ Partial Class Form5
         Me.Button_58.Location = New System.Drawing.Point(118, 224)
         Me.Button_58.Name = "Button_58"
         Me.Button_58.Size = New System.Drawing.Size(100, 100)
-        Me.Button_58.TabIndex = 76
+        Me.Button_58.TabIndex = 9
         Me.Button_58.UseVisualStyleBackColor = True
         '
         'Button_57
@@ -103,7 +103,7 @@ Partial Class Form5
         Me.Button_57.Location = New System.Drawing.Point(12, 224)
         Me.Button_57.Name = "Button_57"
         Me.Button_57.Size = New System.Drawing.Size(100, 100)
-        Me.Button_57.TabIndex = 75
+        Me.Button_57.TabIndex = 8
         Me.Button_57.UseVisualStyleBackColor = True
         '
         'Button_56
@@ -113,7 +113,7 @@ Partial Class Form5
         Me.Button_56.Location = New System.Drawing.Point(330, 118)
         Me.Button_56.Name = "Button_56"
         Me.Button_56.Size = New System.Drawing.Size(100, 100)
-        Me.Button_56.TabIndex = 74
+        Me.Button_56.TabIndex = 7
         Me.Button_56.UseVisualStyleBackColor = True
         '
         'Button_55
@@ -123,7 +123,7 @@ Partial Class Form5
         Me.Button_55.Location = New System.Drawing.Point(224, 118)
         Me.Button_55.Name = "Button_55"
         Me.Button_55.Size = New System.Drawing.Size(100, 100)
-        Me.Button_55.TabIndex = 73
+        Me.Button_55.TabIndex = 6
         Me.Button_55.UseVisualStyleBackColor = True
         '
         'Button_54
@@ -133,7 +133,7 @@ Partial Class Form5
         Me.Button_54.Location = New System.Drawing.Point(118, 118)
         Me.Button_54.Name = "Button_54"
         Me.Button_54.Size = New System.Drawing.Size(100, 100)
-        Me.Button_54.TabIndex = 72
+        Me.Button_54.TabIndex = 5
         Me.Button_54.UseVisualStyleBackColor = True
         '
         'Button_53
@@ -143,7 +143,7 @@ Partial Class Form5
         Me.Button_53.Location = New System.Drawing.Point(12, 118)
         Me.Button_53.Name = "Button_53"
         Me.Button_53.Size = New System.Drawing.Size(100, 100)
-        Me.Button_53.TabIndex = 71
+        Me.Button_53.TabIndex = 4
         Me.Button_53.UseVisualStyleBackColor = True
         '
         'Button_52
@@ -153,7 +153,7 @@ Partial Class Form5
         Me.Button_52.Location = New System.Drawing.Point(330, 12)
         Me.Button_52.Name = "Button_52"
         Me.Button_52.Size = New System.Drawing.Size(100, 100)
-        Me.Button_52.TabIndex = 70
+        Me.Button_52.TabIndex = 3
         Me.Button_52.UseVisualStyleBackColor = True
         '
         'Button_51
@@ -163,7 +163,7 @@ Partial Class Form5
         Me.Button_51.Location = New System.Drawing.Point(224, 12)
         Me.Button_51.Name = "Button_51"
         Me.Button_51.Size = New System.Drawing.Size(100, 100)
-        Me.Button_51.TabIndex = 69
+        Me.Button_51.TabIndex = 2
         Me.Button_51.UseVisualStyleBackColor = True
         '
         'Button_50
@@ -173,7 +173,7 @@ Partial Class Form5
         Me.Button_50.Location = New System.Drawing.Point(118, 12)
         Me.Button_50.Name = "Button_50"
         Me.Button_50.Size = New System.Drawing.Size(100, 100)
-        Me.Button_50.TabIndex = 68
+        Me.Button_50.TabIndex = 1
         Me.Button_50.UseVisualStyleBackColor = True
         '
         'Button_49
@@ -183,7 +183,7 @@ Partial Class Form5
         Me.Button_49.Location = New System.Drawing.Point(12, 12)
         Me.Button_49.Name = "Button_49"
         Me.Button_49.Size = New System.Drawing.Size(100, 100)
-        Me.Button_49.TabIndex = 67
+        Me.Button_49.TabIndex = 0
         Me.Button_49.UseVisualStyleBackColor = True
         '
         'TextBox1

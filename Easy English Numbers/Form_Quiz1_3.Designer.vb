@@ -81,7 +81,7 @@ Partial Class Form_Quiz1_3
         Me.Button_Close.Location = New System.Drawing.Point(13, 450)
         Me.Button_Close.Name = "Button_Close"
         Me.Button_Close.Size = New System.Drawing.Size(136, 50)
-        Me.Button_Close.TabIndex = 59
+        Me.Button_Close.TabIndex = 0
         Me.Button_Close.Text = "Close"
         Me.ToolTip1.SetToolTip(Me.Button_Close, "Close application")
         Me.Button_Close.UseVisualStyleBackColor = False
@@ -201,7 +201,7 @@ Partial Class Form_Quiz1_3
         Me.Button_Menu.Location = New System.Drawing.Point(155, 450)
         Me.Button_Menu.Name = "Button_Menu"
         Me.Button_Menu.Size = New System.Drawing.Size(136, 50)
-        Me.Button_Menu.TabIndex = 49
+        Me.Button_Menu.TabIndex = 1
         Me.Button_Menu.Text = "Main Menu"
         Me.ToolTip1.SetToolTip(Me.Button_Menu, "Return to main menu")
         Me.Button_Menu.UseVisualStyleBackColor = False

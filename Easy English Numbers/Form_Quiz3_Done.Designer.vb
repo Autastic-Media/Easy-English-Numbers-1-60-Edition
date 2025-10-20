@@ -78,7 +78,7 @@ Partial Class FormQ3_Done
         Me.Button_Close.Location = New System.Drawing.Point(235, 483)
         Me.Button_Close.Name = "Button_Close"
         Me.Button_Close.Size = New System.Drawing.Size(210, 63)
-        Me.Button_Close.TabIndex = 60
+        Me.Button_Close.TabIndex = 1
         Me.Button_Close.Text = "Close"
         Me.ToolTip1.SetToolTip(Me.Button_Close, "Return to last screen")
         Me.Button_Close.UseVisualStyleBackColor = False
@@ -100,7 +100,7 @@ Partial Class FormQ3_Done
         Me.Button_Result.Location = New System.Drawing.Point(235, 414)
         Me.Button_Result.Name = "Button_Result"
         Me.Button_Result.Size = New System.Drawing.Size(210, 63)
-        Me.Button_Result.TabIndex = 64
+        Me.Button_Result.TabIndex = 0
         Me.Button_Result.Text = "Print out results"
         Me.ToolTip1.SetToolTip(Me.Button_Result, "Press to print out quiz results")
         Me.Button_Result.UseVisualStyleBackColor = False

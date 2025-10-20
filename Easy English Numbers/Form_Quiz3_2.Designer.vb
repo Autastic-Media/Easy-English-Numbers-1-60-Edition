@@ -81,7 +81,7 @@ Partial Class Form_Quiz3_2
         Me.Button_Close.Location = New System.Drawing.Point(13, 450)
         Me.Button_Close.Name = "Button_Close"
         Me.Button_Close.Size = New System.Drawing.Size(136, 50)
-        Me.Button_Close.TabIndex = 41
+        Me.Button_Close.TabIndex = 0
         Me.Button_Close.Text = "Close"
         Me.Button_Close.UseVisualStyleBackColor = False
         '
@@ -190,7 +190,7 @@ Partial Class Form_Quiz3_2
         Me.Button_Next.Location = New System.Drawing.Point(155, 450)
         Me.Button_Next.Name = "Button_Next"
         Me.Button_Next.Size = New System.Drawing.Size(136, 50)
-        Me.Button_Next.TabIndex = 31
+        Me.Button_Next.TabIndex = 1
         Me.Button_Next.Text = "Next"
         Me.ToolTip1.SetToolTip(Me.Button_Next, "Continue to next screen")
         Me.Button_Next.UseVisualStyleBackColor = False
