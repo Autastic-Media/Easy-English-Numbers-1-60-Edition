@@ -92,7 +92,7 @@ Partial Class Form0
         Me.Button_Close.Location = New System.Drawing.Point(246, 398)
         Me.Button_Close.Name = "Button_Close"
         Me.Button_Close.Size = New System.Drawing.Size(100, 30)
-        Me.Button_Close.TabIndex = 9
+        Me.Button_Close.TabIndex = 11
         Me.Button_Close.Text = "Close"
         Me.ToolTip1.SetToolTip(Me.Button_Close, "Close application")
         Me.Button_Close.UseVisualStyleBackColor = True
@@ -175,7 +175,7 @@ Partial Class Form0
         Me.Button_About.Location = New System.Drawing.Point(140, 398)
         Me.Button_About.Name = "Button_About"
         Me.Button_About.Size = New System.Drawing.Size(100, 30)
-        Me.Button_About.TabIndex = 8
+        Me.Button_About.TabIndex = 10
         Me.Button_About.Text = "About"
         Me.ToolTip1.SetToolTip(Me.Button_About, "About application")
         Me.Button_About.UseVisualStyleBackColor = True
@@ -187,7 +187,7 @@ Partial Class Form0
         Me.Button_Start.Location = New System.Drawing.Point(34, 398)
         Me.Button_Start.Name = "Button_Start"
         Me.Button_Start.Size = New System.Drawing.Size(100, 30)
-        Me.Button_Start.TabIndex = 7
+        Me.Button_Start.TabIndex = 9
         Me.Button_Start.Text = "Start"
         Me.ToolTip1.SetToolTip(Me.Button_Start, "Start learning")
         Me.Button_Start.UseVisualStyleBackColor = True
@@ -228,7 +228,7 @@ Partial Class Form0
         Me.Volume.Location = New System.Drawing.Point(36, 364)
         Me.Volume.Name = "Volume"
         Me.Volume.Size = New System.Drawing.Size(31, 24)
-        Me.Volume.TabIndex = 82
+        Me.Volume.TabIndex = 7
         Me.Volume.Text = "🔊"
         Me.ToolTip1.SetToolTip(Me.Volume, "Toggles Volume On/Off")
         '
@@ -239,7 +239,7 @@ Partial Class Form0
         Me.Label6.Location = New System.Drawing.Point(325, 345)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(25, 13)
-        Me.Label6.TabIndex = 81
+        Me.Label6.TabIndex = 6
         Me.Label6.Text = "100"
         '
         'Label5
@@ -305,7 +305,7 @@ Partial Class Form0
         Me.AudioState.Location = New System.Drawing.Point(60, 369)
         Me.AudioState.Name = "AudioState"
         Me.AudioState.Size = New System.Drawing.Size(25, 16)
-        Me.AudioState.TabIndex = 84
+        Me.AudioState.TabIndex = 8
         Me.AudioState.Text = "On"
         Me.ToolTip1.SetToolTip(Me.AudioState, "Toggles Volume On/Off")
         '
